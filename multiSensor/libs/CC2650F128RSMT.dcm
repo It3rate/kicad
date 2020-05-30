@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CC2650F128RSMT
+D 32-bit SimpleLink M/S Wireless MCU QFN32 Texas Instruments CC2650F128RSMT, 16bit ARM Cortex M0, ARM Cortex M3 Microcontroller, 48MHz, 128 kB Flash, 32-Pin VQFN
+K
+F http://www.ti.com/lit/ds/symlink/cc2650.pdf
+$ENDCMP
+#
+#End Doc Library
