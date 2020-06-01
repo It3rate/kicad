@@ -4,7 +4,7 @@
 (Type: G-code from Excellon)
 (Units: MM)
 
-(Created on Sunday, 31 May 2020 at 17:19)
+(Created on Monday, 01 June 2020 at 16:32)
 
 (This preprocessor is the default preprocessor used by FlatCAM.)
 (It is made to work with MACH3 compatible motion controllers.)
@@ -13,47 +13,42 @@
 (TOOLS DIAMETER: )
 (Tool: 1 -> Dia: 0.7)
 (Tool: 2 -> Dia: 1.0)
-(Tool: 3 -> Dia: 1.1)
-(Tool: 4 -> Dia: 0.7)
-(Tool: 5 -> Dia: 0.9)
+(Tool: 3 -> Dia: 0.7)
+(Tool: 4 -> Dia: 0.9)
 
 (FEEDRATE Z: )
 (Tool: 1 -> Feedrate: 140.0)
 (Tool: 2 -> Feedrate: 140.0)
 (Tool: 3 -> Feedrate: 140.0)
 (Tool: 4 -> Feedrate: 140.0)
-(Tool: 5 -> Feedrate: 140.0)
 
 (FEEDRATE RAPIDS: )
 (Tool: 1 -> Feedrate Rapids: 1500)
 (Tool: 2 -> Feedrate Rapids: 1500)
 (Tool: 3 -> Feedrate Rapids: 1500)
 (Tool: 4 -> Feedrate Rapids: 1500)
-(Tool: 5 -> Feedrate Rapids: 1500)
 
 (Z_CUT: )
-(Tool: 1 -> Z_Cut: -2.2)
-(Tool: 2 -> Z_Cut: -2.2)
-(Tool: 3 -> Z_Cut: -2.2)
-(Tool: 4 -> Z_Cut: -2.2)
-(Tool: 5 -> Z_Cut: -2.2)
+(Tool: 1 -> Z_Cut: -2.4)
+(Tool: 2 -> Z_Cut: -2.4)
+(Tool: 3 -> Z_Cut: -2.4)
+(Tool: 4 -> Z_Cut: -2.4)
 
 (Tools Offset: )
-(Tool: 5 -> Offset Z: -0.0)
+(Tool: 4 -> Offset Z: -0.0)
 
 (Z_MOVE: )
 (Tool: 1 -> Z_Move: 1.0)
 (Tool: 2 -> Z_Move: 1.0)
 (Tool: 3 -> Z_Move: 1.0)
 (Tool: 4 -> Z_Move: 1.0)
-(Tool: 5 -> Z_Move: 1.0)
 
 (Z Start: None mm)
 (Z End: 2.0 mm)
 (Steps per circle: 64)
 (Preprocessor Excellon: default)
 
-(X range:   61.2500 ...   88.6500  mm)
+(X range:   62.4000 ...   89.3500  mm)
 (Y range:   28.5000 ...   87.3200  mm)
 
 (Spindle Speed: 10000.0 RPM)
@@ -68,84 +63,84 @@ G00 Z1.0000
 G01 F140.00
 M03 S10000
 G4 P2.0
-G00 X79.1000 Y30.7000
-G01 Z-2.2000
+G00 X70.7000 Y61.6000
+G01 Z-2.4000
 G01 Z0
 G00 Z1.0000
-G00 X78.7000 Y30.7000
-G01 Z-2.2000
+G00 X71.1000 Y61.6000
+G01 Z-2.4000
 G01 Z0
 G00 Z1.0000
-G00 X73.0000 Y29.9000
-G01 Z-2.2000
+G00 X66.2000 Y74.7000
+G01 Z-2.4000
 G01 Z0
 G00 Z1.0000
-G00 X72.6000 Y29.9000
-G01 Z-2.2000
+G00 X66.6000 Y74.7000
+G01 Z-2.4000
 G01 Z0
 G00 Z1.0000
-G00 X79.1000 Y38.7000
-G01 Z-2.2000
+G00 X66.2000 Y71.9000
+G01 Z-2.4000
 G01 Z0
 G00 Z1.0000
-G00 X78.7000 Y38.7000
-G01 Z-2.2000
+G00 X66.6000 Y71.9000
+G01 Z-2.4000
 G01 Z0
 G00 Z1.0000
-G00 X72.6000 Y61.9000
-G01 Z-2.2000
+G00 X70.7000 Y69.6000
+G01 Z-2.4000
 G01 Z0
 G00 Z1.0000
-G00 X73.0000 Y61.9000
-G01 Z-2.2000
+G00 X71.1000 Y69.6000
+G01 Z-2.4000
 G01 Z0
 G00 Z1.0000
-G00 X78.7000 Y70.7000
-G01 Z-2.2000
+G00 X78.2000 Y61.9000
+G01 Z-2.4000
 G01 Z0
 G00 Z1.0000
-G00 X79.1000 Y70.7000
-G01 Z-2.2000
+G00 X77.8000 Y61.9000
+G01 Z-2.4000
 G01 Z0
 G00 Z1.0000
-G00 X84.6000 Y74.7000
-G01 Z-2.2000
+G00 X77.8000 Y29.9000
+G01 Z-2.4000
 G01 Z0
 G00 Z1.0000
-G00 X84.2000 Y74.7000
-G01 Z-2.2000
+G00 X78.2000 Y29.9000
+G01 Z-2.4000
 G01 Z0
 G00 Z1.0000
-G00 X82.9000 Y71.8000
-G01 Z-2.2000
+G00 X70.7000 Y29.6000
+G01 Z-2.4000
 G01 Z0
 G00 Z1.0000
-G00 X82.5000 Y71.8000
-G01 Z-2.2000
+G00 X71.1000 Y29.6000
+G01 Z-2.4000
 G01 Z0
 G00 Z1.0000
-G00 X79.1000 Y62.7000
-G01 Z-2.2000
+G00 X70.7000 Y37.6000
+G01 Z-2.4000
 G01 Z0
 G00 Z1.0000
-G00 X78.7000 Y62.7000
-G01 Z-2.2000
+G00 X71.1000 Y37.6000
+G01 Z-2.4000
 G01 Z0
 G00 Z1.0000
-G00 X84.6000 Y42.7000
-G01 Z-2.2000
+G00 X66.2000 Y39.9000
+G01 Z-2.4000
 G01 Z0
 G00 Z1.0000
-G00 X84.2000 Y42.7000
-G01 Z-2.2000
+G00 X66.6000 Y39.9000
+G01 Z-2.4000
 G01 Z0
 G00 Z1.0000
-G00 X82.9000 Y39.8000
-G01 Z-2.2000
+G00 X66.2000 Y42.7000
+G01 Z-2.4000
 G01 Z0
 G00 Z1.0000
-G00 X82.5000 Y39.8000
-G01 Z-2.2000
+G00 X66.6000 Y42.7000
+G01 Z-2.4000
 G01 Z0
 G00 Z1.0000
 M05

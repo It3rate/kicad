@@ -107,19 +107,6 @@ F 3 "" H 5800 2000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5700 2000 5800 2000
-$Comp
-L Switch:SW_Push SW1
-U 1 1 5EC1A6E2
-P 4050 1700
-F 0 "SW1" H 4050 1985 50  0000 C CNN
-F 1 "SW_Push" H 4050 1894 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm" H 4050 1900 50  0001 C CNN
-F 3 "~" H 4050 1900 50  0001 C CNN
-	1    4050 1700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3850 1700 3700 1700
 Connection ~ 3700 1700
 Wire Wire Line
 	3000 1700 3000 1800
@@ -161,8 +148,6 @@ F 3 "~" H 4500 1700 50  0001 C CNN
 	1    4500 1700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4250 1700 4500 1700
 Wire Wire Line
 	3000 1700 3250 1700
 $Comp
@@ -703,4 +688,6 @@ F 3 "~" H 2450 4650 50  0001 C CNN
 	1    2450 4650
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	3700 1700 4500 1700
 $EndSCHEMATC
